@@ -41,7 +41,7 @@ Cluster MongoDB shardé avec :
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 MongoDB_sharding_cluster/
@@ -55,7 +55,7 @@ MongoDB_sharding_cluster/
 
 ---
 
-## 🚀 Démarrage rapide
+## Démarrage rapide
 
 ### 1. Lancer le cluster complet
 ```powershell
@@ -81,7 +81,7 @@ MongoDB_sharding_cluster/
 
 ---
 
-## 📡 Connexion
+## Connexion
 
 ### Mongos (via routeur)
 ```
