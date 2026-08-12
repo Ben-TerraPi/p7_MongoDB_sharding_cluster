@@ -4,7 +4,7 @@ Ce projet a été réalisé dans le cadre du parcours de formation Data Engineer
 
 Titre du projet :
 
-`Concevez et analyser une base de données NoSQL`
+**Concevez et analyser une base de données NoSQL**
 
 Ce projet consiste à concevoir et déployer une architecture MongoDB distribuée et hautement disponible pour le stockage et l'analyse de données de locations immobilières issues des villes de Paris et Lyon. L'infrastructure repose sur un cluster shardé composé de deux Replica Sets distincts, permettant à la fois la réplication des données, la tolérance aux pannes et la distribution horizontale de la charge.
 
