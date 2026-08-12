@@ -1,6 +1,6 @@
 ## Context
 
-Ce projet a été réalisé dans le cadre de mon parcours de formation 'Data Engineer' avec OpenClassrooms.
+Ce projet a été réalisé dans le cadre du parcours de formation Data Engineer d'OpenClassrooms.
 
 Titre du projet :
 
