@@ -1,12 +1,14 @@
 ## Context
 
-Ce projet a été réalisé dans le cadre de mon parcours de formation 'Data Engineer' avec OpenClassrooms.
+Ce projet a été réalisé dans le cadre du parcours de formation Data Engineer d'OpenClassrooms.
 
 Titre du projet :
 
-`Concevez et analyser une base de données NoSQL`
+**Concevez et analyser une base de données NoSQL**
 
-Ce repo ne concerne que la logique de conception de la base de données, les fichiers de données étant trop volumineux pour github. 
+Ce projet consiste à concevoir et déployer une architecture MongoDB distribuée et hautement disponible pour le stockage et l'analyse de données de locations immobilières issues des villes de Paris et Lyon. L'infrastructure repose sur un cluster shardé composé de deux Replica Sets distincts, permettant à la fois la réplication des données, la tolérance aux pannes et la distribution horizontale de la charge.
+
+L'ensemble du déploiement est automatisé via des scripts PowerShell assurant l'installation, la vérification, l'arrêt et le redémarrage du cluster. Ce projet met en œuvre les principaux mécanismes de scalabilité, de résilience et d'administration d'une base de données NoSQL en environnement distribué.
 
 ### Source data :
 
@@ -41,7 +43,7 @@ Cluster MongoDB shardé avec :
 
 ---
 
-## 📁 Structure du projet
+## Structure du projet
 
 ```
 MongoDB_sharding_cluster/
@@ -55,7 +57,7 @@ MongoDB_sharding_cluster/
 
 ---
 
-## 🚀 Démarrage rapide
+## Démarrage rapide
 
 ### 1. Lancer le cluster complet
 ```powershell
@@ -81,7 +83,7 @@ MongoDB_sharding_cluster/
 
 ---
 
-## 📡 Connexion
+## Connexion
 
 ### Mongos (via routeur)
 ```
