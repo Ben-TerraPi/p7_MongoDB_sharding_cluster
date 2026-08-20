@@ -83,6 +83,12 @@ MongoDB_sharding_cluster/
 
 ---
 
+## Schéma du workflow setup
+
+![Schéma setup](./images/setup_schema.png)
+
+---
+
 ## Connexion
 
 ### Mongos (via routeur)
