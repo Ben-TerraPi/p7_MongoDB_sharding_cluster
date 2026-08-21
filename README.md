@@ -66,6 +66,10 @@ MongoDB_sharding_cluster/
 ⚠️ Changer le chemin d'accès pour les csv (lignes 33 et 37) ⚠️
 ⚠️ Ce script supprime toutes les databases existantes sur les ports locaux indiqué ⚠️ 
 
+### Schéma du workflow setup_cluster.ps1
+
+![Schéma setup](./images/setup_schema.png)
+
 ### 2. Vérifier l'installation
 ```powershell
 .\verify_cluster.ps1
@@ -80,12 +84,6 @@ MongoDB_sharding_cluster/
 ```powershell
 .\restart_cluster.ps1
 ```
-
----
-
-## Schéma du workflow setup
-
-![Schéma setup](./images/setup_schema.png)
 
 ---
 
